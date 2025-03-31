@@ -1,7 +1,7 @@
-import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
-import banner from '../assets/banner.png';
+import banner from "../assets/banner.png";
 
 const Hero = () => {
   return (
@@ -13,8 +13,8 @@ const Hero = () => {
               Bem-vindo ao Laboratório Araruna
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Excelência em serviços laboratoriais com tecnologia de ponta e atendimento humanizado.
-              Sua saúde é nossa prioridade.
+              Excelência em serviços laboratoriais com tecnologia de ponta e
+              atendimento humanizado. Sua saúde é nossa prioridade.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <Link
@@ -35,14 +35,15 @@ const Hero = () => {
         </div>
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
-            className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+            className="w-full h-auto object-cover lg:object-center"
             src={banner}
             alt="Laboratório moderno com equipamentos de última geração"
+            style={{marginTop: "90px", height: "70%"}}
           />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Hero;
