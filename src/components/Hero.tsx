@@ -18,14 +18,14 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <Link
-                to="/agendamento"
+                to="http://45.183.82.65:4448/ConcentWeb/servlet/hlab8000"
                 className="rounded-md bg-primary-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 inline-flex items-center"
               >
                 Agende sua coleta
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <Link
-                to="/resultados"
+                to="http://45.183.82.65:4448/ConcentWeb/servlet/hlab8000"
                 className="text-sm font-semibold leading-6 text-gray-900 hover:text-primary-600"
               >
                 Consulte seus resultados <span aria-hidden="true">→</span>
